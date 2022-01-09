@@ -72,9 +72,6 @@ namespace StaticAI
                         Console.ResetColor();
                         didWork++;
                     }
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Passed! (Phase2) {0}", Score[a]);
-                    Console.ResetColor();
                 }else{
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Failed! (Phase2) {0}", Score[a]);
