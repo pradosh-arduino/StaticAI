@@ -20,7 +20,7 @@ namespace StaticAI
         // The Main Score variable
         int[] Score = new int[32];
         int didWork;
-        string Version = "v1.0.0";
+        string Version = "v1.0.1";
         static void Main(string[] args)
         {
             AI AIreference = new AI();  // Refrence of AI so we can call it in a static function
